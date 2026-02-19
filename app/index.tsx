@@ -36,13 +36,6 @@ export default function HomeScreen() {
         <View style={styles.buttonsContainer}>
           <TouchableOpacity
             style={[styles.button, styles.primaryButton]}
-            onPress={() => handleNavigate('/about')}
-          >
-            <Text style={styles.buttonText}>About</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity
-            style={[styles.button, styles.primaryButton]}
             onPress={() => handleNavigate('/ticket')}
           >
             <Text style={styles.buttonText}>My Ticket</Text>

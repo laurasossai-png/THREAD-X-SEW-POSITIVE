@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
   checklistItem: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,
@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
     marginRight: 16,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
   },
   checkboxChecked: {
     backgroundColor: Colors.accent,

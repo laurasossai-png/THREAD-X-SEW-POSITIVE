@@ -67,7 +67,7 @@ export default function TicketScreen() {
             value={orderNumber}
             onChangeText={setOrderNumber}
             placeholder="Enter your order number"
-            placeholderTextColor="#999"
+            placeholderTextColor="#666"
           />
         </View>
 
@@ -78,7 +78,7 @@ export default function TicketScreen() {
             value={bookingEmail}
             onChangeText={setBookingEmail}
             placeholder="Enter your booking email"
-            placeholderTextColor="#999"
+            placeholderTextColor="#666"
             keyboardType="email-address"
             autoCapitalize="none"
           />
@@ -91,7 +91,7 @@ export default function TicketScreen() {
             value={notes}
             onChangeText={setNotes}
             placeholder="Any additional notes"
-            placeholderTextColor="#999"
+            placeholderTextColor="#666"
             multiline
             numberOfLines={4}
           />
@@ -138,7 +138,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   input: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,

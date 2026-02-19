@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   },
   infoContainer: {
     padding: 16,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,

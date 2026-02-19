@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
   },
   finalMessageContainer: {
     padding: 24,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 3,
     borderColor: Colors.primaryButton,
     borderRadius: 8,

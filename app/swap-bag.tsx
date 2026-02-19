@@ -109,7 +109,7 @@ export default function SwapBagScreen() {
               value={name}
               onChangeText={setName}
               placeholder="e.g., Blue Denim Jacket"
-              placeholderTextColor="#999"
+              placeholderTextColor="#666"
             />
           </View>
 
@@ -146,7 +146,7 @@ export default function SwapBagScreen() {
               value={size}
               onChangeText={setSize}
               placeholder="e.g., M, L, 10"
-              placeholderTextColor="#999"
+              placeholderTextColor="#666"
             />
           </View>
 
@@ -157,7 +157,7 @@ export default function SwapBagScreen() {
               value={colour}
               onChangeText={setColour}
               placeholder="e.g., Blue, Red"
-              placeholderTextColor="#999"
+              placeholderTextColor="#666"
             />
           </View>
 
@@ -194,7 +194,7 @@ export default function SwapBagScreen() {
               value={notes}
               onChangeText={setNotes}
               placeholder="Any additional details"
-              placeholderTextColor="#999"
+              placeholderTextColor="#666"
               multiline
               numberOfLines={3}
             />
@@ -283,7 +283,7 @@ const styles = StyleSheet.create({
     marginBottom: 8,
   },
   input: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,
@@ -298,7 +298,7 @@ const styles = StyleSheet.create({
     textAlignVertical: 'top',
   },
   pickerButton: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,
@@ -311,7 +311,7 @@ const styles = StyleSheet.create({
     color: Colors.primaryText,
   },
   pickerOptions: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,
@@ -322,7 +322,7 @@ const styles = StyleSheet.create({
     paddingHorizontal: 16,
     paddingVertical: 12,
     borderBottomWidth: 1,
-    borderBottomColor: '#E0E0E0',
+    borderBottomColor: '#333333',
   },
   pickerOptionText: {
     fontSize: 16,
@@ -364,7 +364,7 @@ const styles = StyleSheet.create({
     marginVertical: 24,
   },
   itemCard: {
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#222222',
     borderWidth: 2,
     borderColor: Colors.primaryButton,
     borderRadius: 8,
@@ -403,7 +403,7 @@ const styles = StyleSheet.create({
   itemNotes: {
     fontSize: 14,
     fontFamily: 'Fraunces_400Regular',
-    color: '#666',
+    color: '#999',
     marginTop: 8,
     fontStyle: 'italic',
   },
